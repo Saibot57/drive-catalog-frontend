@@ -1,5 +1,5 @@
 {
-  "compilerOptions": {
+  "compilerOptions": {"jsx": "react-jsx",
     "paths": {
       "@/*": ["./src/*"]
     }
