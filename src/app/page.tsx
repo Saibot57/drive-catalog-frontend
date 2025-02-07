@@ -104,7 +104,7 @@ const DriveCatalog = () => {
           tags: editForm.tags.split(',').map(tag => tag.trim()).filter(Boolean)
         })
       });
-      
+
       if (response.ok) {
         await fetchData();
         cancelEditing();
@@ -150,9 +150,9 @@ const DriveCatalog = () => {
         ) : (
           <>
             <div className="flex justify-between items-start">
-              <a href={file.url} 
-                 target="_blank" 
-                 rel="noopener noreferrer" 
+              <a href={file.url}
+                 target="_blank"
+                 rel="noopener noreferrer"
                  className="text-text hover:text-main font-medium">
                 {file.name}
               </a>
@@ -204,7 +204,7 @@ const DriveCatalog = () => {
   );
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="bg-white dark:bg-secondaryBlack bg-[linear-gradient(to_right,#80808033_1px,transparent_1px),linear-gradient(to_bottom,#80808033_1px,transparent_1px)] bg-[size:70px_70px] container mx-auto px-4 py-8 font-base">
       <div className="flex items-center justify-between mb-8">
         <div className="relative flex-1 max-w-xl">
           <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" size={20} />

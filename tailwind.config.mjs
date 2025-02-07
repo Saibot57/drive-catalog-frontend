@@ -9,6 +9,20 @@ export default {
   theme: {
   	extend: {
   		colors: {
+					main: '#A3E636',
+					mainAccent: '#88cc19', 
+					overlay: 'rgba(0,0,0,0.8)', 
+			
+					// light mode
+					bg: '#E0E7F1',
+					text: '#000',
+					border: '#000',
+			
+					// dark mode
+					darkBg: '#2c312b',
+					darkText: '#eeefe9',
+					darkBorder: '#000',
+					secondaryBlack: '#212121', 
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
